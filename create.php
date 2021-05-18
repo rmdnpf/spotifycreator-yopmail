@@ -15,7 +15,7 @@ $jmlh = trim(fgets(STDIN));
 
 for ($i = 0; $i < $jmlh ; $i++) {
 	$ch = curl_init();
-$email = $mail.$i."@yopmail.com";
+$email = $mail.$i."@trustmail.cc";
 curl_setopt($ch, CURLOPT_URL, 'https://spclient.wg.spotify.com/signup/public/v1/account/');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
